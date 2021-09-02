@@ -34,12 +34,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    p {
-      padding: 1em 0;
-      font-size: 6.4rem;
+    p:first-child {
+      padding: 2em 0;
+      font-size: 3.2rem;
     }
     &__email {
       font-family: 'Almarena', sans-serif;
+      padding: 1.1em 0;
       font-size: 7.2rem;
     }
   }
