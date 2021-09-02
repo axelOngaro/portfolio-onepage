@@ -1,0 +1,46 @@
+.contact {
+  background-color: black;
+  color: white;
+  h2 {
+    font-family: 'Almarena', sans-serif;
+    font-size: 7.2rem;
+    padding: 2em 0;
+    margin: 0 5vw;
+  }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    &__form {
+      display: flex;
+      flex-direction: column;
+      padding: 0 10rem;
+      font-size: 1.8rem;
+      width: 50%;
+      &__input {
+        all: unset;
+        background-color: black;
+        border: 1px white solid;
+        margin: 1em 0;
+      }
+    }
+    &__text {
+      width: 50%;
+      padding: 0 10em;
+      font-size: 1.8rem;
+    }
+  }
+  &__secondary {
+    margin: 10em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      padding: 1em 0;
+      font-size: 6.4rem;
+    }
+    &__email {
+      font-family: 'Almarena', sans-serif;
+      font-size: 7.2rem;
+    }
+  }
+}

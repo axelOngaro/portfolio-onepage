@@ -1,0 +1,33 @@
+.about {
+  background-color: #2d2490;
+  color: white;
+  padding: 12rem 0;
+  h2 {
+    font-family: 'Almarena', sans-serif;
+    font-size: 7.2rem;
+    margin: 1em 5vw;
+  }
+  &__content {
+    display: flex;
+    &__figure {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 30%;
+        margin-bottom: 1rem;
+      }
+      &__figcaption {
+        display: inline-block;
+      }
+    }
+    &__text {
+      width: 30%;
+      font-size: 1.8rem;
+      p {
+        padding: 3em 0;
+      }
+    }
+  }
+}
