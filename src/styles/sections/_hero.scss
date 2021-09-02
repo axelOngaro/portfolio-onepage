@@ -1,0 +1,13 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Almarena', sans-serif;
+  font-size: 10.4rem;
+  margin-top: 1.5em;
+  h1 {
+    align-self: flex-end;
+  }
+  &__h2--designer {
+    align-self: flex-end;
+  }
+}
