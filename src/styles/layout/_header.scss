@@ -1,0 +1,15 @@
+.header {
+  font-size: 1.8rem;
+  padding: 0.5em 5em;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    &__list {
+      display: flex;
+      li {
+        margin: 0 2em;
+        cursor: ponter;
+      }
+    }
+  }
+}
