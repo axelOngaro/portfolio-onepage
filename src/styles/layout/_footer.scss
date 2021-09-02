@@ -1,0 +1,13 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding-top: 20em;
+  padding-bottom: 2em;
+  &__list {
+    display: flex;
+    font-size: 1.8rem;
+    width: 30%;
+    justify-content: space-around;
+    font-family: 'Almarena', sans-serif;
+  }
+}
