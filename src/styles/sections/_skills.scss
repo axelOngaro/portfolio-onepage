@@ -1,0 +1,33 @@
+.skills {
+  background-color: rgb(189, 94, 16);
+  padding: 5vh 0;
+
+  h2 {
+    font-family: 'Almarena', sans-serif;
+    font-size: 7.2rem;
+    margin: 1em 0;
+    margin-left: 10vw;
+  }
+}
+.skills__card {
+  border-top: solid black 1px;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 0;
+  width: 50vw;
+  margin-left: 5vw;
+  font-size: 1.4rem;
+  cursor: pointer;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      font-family: 'Almarena', sans-serif;
+      font-size: 8.6rem;
+    }
+  }
+  &--last {
+    border-bottom: solid 1px black;
+  }
+}
