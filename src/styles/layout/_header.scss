@@ -5,7 +5,9 @@
   padding: 1.5em 5em;
   position: fixed;
   z-index: 100;
-  // z-index: 9999;
+  h1 {
+    cursor: pointer;
+  }
   &__nav {
     display: flex;
     justify-content: space-between;
