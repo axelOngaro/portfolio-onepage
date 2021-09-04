@@ -1,6 +1,7 @@
 import { gsap } from 'gsap';
 
 const frontend = document.querySelector('.frontend');
+const hero = document.querySelector('.hero');
 const backend = document.querySelector('.backend');
 const other = document.querySelector('.other');
 const languages = document.querySelector('.languages');
@@ -16,6 +17,13 @@ const frontendLearnmore = document.querySelector('#frontend__learnmore');
 const otherLearnmore = document.querySelector('#other__learnmore');
 const softLearnmore = document.querySelector('#soft__learnmore');
 const languagesLearnmore = document.querySelector('#languages__learnmore');
+
+gsap.from('.smooth-scroll', {
+  opacity: 0,
+  duration: 3,
+});
+
+gsap.from('.header', { opacity: 0, duration: 4 });
 
 const skillAnimaton = (section, hiddenDiv) => {
   section.addEventListener('click', () => {
