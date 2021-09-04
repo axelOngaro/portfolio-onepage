@@ -27,6 +27,20 @@
       font-size: 8.6rem;
     }
   }
+  &__text {
+    padding: 0.5em 0;
+  }
+
+  &__hidden {
+    // display: none;
+
+    margin-top: 1em;
+    font-size: 2rem;
+    font-family: 'Almarena', sans-serif;
+    li {
+      padding: 0.2em 0;
+    }
+  }
   &--last {
     border-bottom: solid 1px black;
   }
