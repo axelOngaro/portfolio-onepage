@@ -1,7 +1,11 @@
 .header {
   font-size: 1.8rem;
   font-family: 'Almarena', sans-serif;
+  width: 99vw;
   padding: 1.5em 5em;
+  position: fixed;
+  z-index: 100;
+  // z-index: 9999;
   &__nav {
     display: flex;
     justify-content: space-between;

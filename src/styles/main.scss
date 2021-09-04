@@ -9,3 +9,7 @@
 @import 'sections/contact';
 @import 'animation';
 @import 'third_party/locomotive-scroll';
+
+main {
+  z-index: 1;
+}
