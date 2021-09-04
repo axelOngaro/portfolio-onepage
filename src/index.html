@@ -7,7 +7,7 @@
     <title>Axel Ongaro | Full stack developer & UI/UX designer</title>
     <link rel="stylesheet" href="./styles/main.scss" />
   </head>
-  <body data-scroll-container>
+  <body data-scroll-container class="smooth-scroll">
     <header class="header">
       <nav class="header__nav">
         <h1 class="header__nav__title animated_link" id="home__link">axel</h1>
@@ -17,7 +17,7 @@
         </ul>
       </nav>
     </header>
-    <div class="top" data-scroll-section data-scroll>k</div>
+    <div class="top" data-scroll-section data-scroll></div>
     <main>
       <section class="hero" data-scroll-section>
         <h1>Axel Ongaro</h1>
@@ -172,7 +172,12 @@
       <section class="about" data-scroll-section>
         <h2 data-scroll data-scroll-speed="2">about me</h2>
         <div class="about__content">
-          <figure class="about__content__figure" data-scroll data-scroll-speed="-3">
+          <figure
+            class="about__content__figure"
+            data-scroll
+            data-scroll-speed="3"
+            id="figure"
+          >
             <img
               src="./img/Rectangle 4.png"
               alt="ma tete"
@@ -182,7 +187,7 @@
               c'est ma tronche mdr
             </figcaption>
           </figure>
-          <div class="about__content__text" data-scroll data-scroll-speed="3">
+          <div class="about__content__text" data-scroll data-scroll-speed="-2">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae ipsum, nibh
               rhoncus dictumst gravida. Dui ornare quis fermentum purus fusce amet
