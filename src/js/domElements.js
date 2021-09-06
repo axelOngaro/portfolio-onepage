@@ -15,3 +15,9 @@ export const frontendLearnmore = document.querySelector('#frontend__learnmore');
 export const otherLearnmore = document.querySelector('#other__learnmore');
 export const softLearnmore = document.querySelector('#soft__learnmore');
 export const languagesLearnmore = document.querySelector('#languages__learnmore');
+
+export const aboutLink = document.querySelector('#about__link');
+export const about = document.querySelector('.about');
+
+export const skillsLink = document.querySelector('#skills__link');
+export const skills = document.querySelector('.skills');
