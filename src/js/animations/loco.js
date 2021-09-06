@@ -1,26 +1,30 @@
 import LocomotiveScroll from 'locomotive-scroll';
+import {
+  about,
+  aboutLink,
+  skills,
+  skillsLink,
+  work,
+  workLink,
+  contact,
+  contactLink,
+  top,
+  homeLink,
+} from '../domElements';
 
 export const scroll = new LocomotiveScroll({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
 });
 
-const workLink = document.querySelector('#work__link');
-const homeLink = document.querySelector('#home__link');
-const contactLink = document.querySelector('#contact__link');
-const work = document.querySelector('.selected__work');
-const top = document.querySelector('.top');
-const contact = document.querySelector('.contact');
+const scrollNav = (link, target) => {
+  link.addEventListener('click', () => {
+    scroll.scrollTo(target);
+  });
+};
 
-workLink.addEventListener('click', () => {
-  scroll.scrollTo(work);
-});
-
-homeLink.addEventListener('click', () => {
-  scroll.scrollTo(top);
-  console.log('homelinik');
-});
-
-contactLink.addEventListener('click', () => {
-  scroll.scrollTo(contact);
-});
+scrollNav(homeLink, top);
+scrollNav(skillsLink, skills);
+scrollNav(workLink, work);
+scrollNav(aboutLink, about);
+scrollNav(contactLink, contact);

@@ -13,3 +13,11 @@
 main {
   z-index: 1;
 }
+
+body {
+  visibility: hidden;
+}
+
+.loaded {
+  visibility: visible;
+}
