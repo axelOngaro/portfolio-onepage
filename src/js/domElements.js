@@ -34,3 +34,8 @@ export const skills = document.querySelector('.skills');
 export const work = document.querySelector('.selected__work');
 export const about = document.querySelector('.about');
 export const contact = document.querySelector('.contact');
+
+//form
+export const form = document.getElementById('contact-form');
+
+export const formBtn = document.getElementById('form_submit');

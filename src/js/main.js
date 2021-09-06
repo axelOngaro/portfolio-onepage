@@ -1,5 +1,6 @@
 import { scroll } from './animations/loco';
 import { hiddenAnimationArray, learnMoreAnimationArray } from './animations/cssAnimation';
+import { form } from './domElements';
 
 import { sendMail } from './email';
 import './animations/gsap';
@@ -9,9 +10,7 @@ window.addEventListener('load', () => {
   scroll.update();
 });
 
-const formSubmit = document.getElementById('form_submit');
-
-formSubmit.addEventListener('click', (event) => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
   sendMail();
 });

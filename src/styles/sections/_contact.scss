@@ -17,6 +17,16 @@
       padding: 0 10rem;
       font-size: 1.8rem;
       width: 50%;
+      &__success {
+        text-align: center;
+        padding: 0.5em 0;
+        background-color: rgb(69, 141, 69);
+        color: white;
+        font-family: 'Jost', sans-serif;
+        border-radius: 2.5rem;
+        opacity: 0;
+        display: none;
+      }
       &__input {
         all: unset;
         background-color: #fcf7ff;
@@ -45,4 +55,16 @@
       font-size: 7.2rem;
     }
   }
+}
+
+#form_submit {
+  all: unset;
+  text-align: center;
+  font-family: 'Almarena', sans-serif;
+  border-radius: 1em;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+  padding: 0.5em 0;
+  background-color: blue;
 }

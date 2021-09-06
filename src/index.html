@@ -247,6 +247,7 @@
               name="user_name"
               id="user_name"
               class="contact__main__form__input"
+              required
             />
             <label for="user_email">email</label>
             <input
@@ -254,6 +255,7 @@
               name="user_email"
               id="user_email"
               class="contact__main__form__input"
+              required
             />
             <label for="message">message</label>
             <textarea
@@ -262,7 +264,9 @@
               cols="30"
               rows="10"
               class="contact__main__form__input"
+              required
             ></textarea>
+            <p class="contact__main__form__success" id="success">successfully send!</p>
             <button id="form_submit">Submit</button>
           </form>
           <p class="contact__main__text" data-scroll data-scroll-speed="-1">
