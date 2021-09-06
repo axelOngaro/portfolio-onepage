@@ -21,3 +21,10 @@ export const about = document.querySelector('.about');
 
 export const skillsLink = document.querySelector('#skills__link');
 export const skills = document.querySelector('.skills');
+
+export const workLink = document.querySelector('#work__link');
+export const homeLink = document.querySelector('#home__link');
+export const contactLink = document.querySelector('#contact__link');
+export const work = document.querySelector('.selected__work');
+export const top = document.querySelector('.top');
+export const contact = document.querySelector('.contact');
