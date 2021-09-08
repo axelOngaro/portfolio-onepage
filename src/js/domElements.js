@@ -39,3 +39,10 @@ export const contact = document.querySelector('.contact');
 export const form = document.getElementById('contact-form');
 
 export const formBtn = document.getElementById('form_submit');
+
+//cross
+export const frontendCross = document.getElementById('frontend__learnmore__cross');
+export const backendCross = document.getElementById('backend__learnmore__cross');
+export const languagesCross = document.getElementById('languages__learnmore__cross');
+export const otherCross = document.getElementById('other__learnmore__cross');
+export const softCross = document.getElementById('soft__learnmore__cross');

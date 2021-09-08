@@ -17,7 +17,9 @@
     </script>
   </head>
   <body data-scroll-container class="smooth-scroll">
+    <div class="top" data-scroll-section data-scroll></div>
     <script src="./js/animations/loading.js"></script>
+
     <header class="header">
       <nav class="header__nav">
         <h1 class="header__nav__title animated_link" id="home__link">axel</h1>
@@ -29,7 +31,7 @@
         </ul>
       </nav>
     </header>
-    <div class="top" data-scroll-section data-scroll></div>
+
     <main>
       <section class="hero" data-scroll-section>
         <h1>Axel Ongaro</h1>
@@ -60,9 +62,12 @@
         <article class="skills__card frontend" data-scroll>
           <div class="skills__card__header">
             <h3>frontend</h3>
-            <p id="frontend__learnmore" class="skills__card__header__learnmore">
-              learn more <img src="./svg/Arrow 4.svg" alt="fleche" />
-            </p>
+            <div class="skills__card__header__learnmore">
+              <p id="frontend__learnmore">learn more</p>
+              <div class="cross__wrapper" id="frontend__learnmore__cross">
+                <div class="cross"></div>
+              </div>
+            </div>
           </div>
           <p class="skills__card__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim id vel
@@ -87,9 +92,12 @@
         <article class="skills__card backend" data-scroll>
           <div class="skills__card__header">
             <h3>backend</h3>
-            <p id="backend__learnmore" class="skills__card__header__learnmore">
-              learn more <img src="./svg/Arrow 4.svg" alt="fleche" />
-            </p>
+            <div class="skills__card__header__learnmore">
+              <p id="backend__learnmore">learn more</p>
+              <div class="cross__wrapper" id="backend__learnmore__cross">
+                <div class="cross"></div>
+              </div>
+            </div>
           </div>
           <p class="skills__card__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim id vel
@@ -113,9 +121,12 @@
         <article class="skills__card languages" data-scroll>
           <div class="skills__card__header">
             <h3>languages</h3>
-            <p id="languages__learnmore" class="skills__card__header__learnmore">
-              learn more <img src="./svg/Arrow 4.svg" alt="fleche" />
-            </p>
+            <div class="skills__card__header__learnmore">
+              <p id="languages__learnmore">learn more</p>
+              <div class="cross__wrapper" id="languages__learnmore__cross">
+                <div class="cross"></div>
+              </div>
+            </div>
           </div>
           <p class="skills__card__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim id vel
@@ -136,9 +147,12 @@
         <article class="skills__card other" data-scroll>
           <div class="skills__card__header">
             <h3>Other skills</h3>
-            <p id="other__learnmore" class="skills__card__header__learnmore">
-              learn more <img src="./svg/Arrow 4.svg" alt="fleche" />
-            </p>
+            <div class="skills__card__header__learnmore">
+              <p id="other__learnmore">learn more</p>
+              <div class="cross__wrapper" id="other__learnmore__cross">
+                <div class="cross"></div>
+              </div>
+            </div>
           </div>
           <p class="skills__card__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim id vel
@@ -163,9 +177,12 @@
         <article class="skills__card skills__card--last soft" data-scroll>
           <div class="skills__card__header">
             <h3>soft skills</h3>
-            <p id="soft__learnmore" class="skills__card__header__learnmore">
-              learn more <img src="./svg/Arrow 4.svg" alt="fleche" />
-            </p>
+            <div class="skills__card__header__learnmore">
+              <p id="soft__learnmore">learn more</p>
+              <div class="cross__wrapper" id="soft__learnmore__cross">
+                <div class="cross"></div>
+              </div>
+            </div>
           </div>
           <p class="skills__card__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim id vel
@@ -313,6 +330,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
-  <script src="./js/main.js"></script>
 </html>

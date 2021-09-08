@@ -23,7 +23,11 @@
     justify-content: space-between;
     align-items: center;
     &__learnmore {
-      transition: ease 1s all;
+      display: flex;
+      align-items: center;
+      p {
+        transition: ease 1s all;
+      }
     }
     h3 {
       font-family: 'Almarena', sans-serif;
@@ -59,4 +63,32 @@
 .opacity {
   opacity: 0;
   transition: all ease 1s;
+}
+
+.cross__wrapper {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  --value: 90deg;
+  .cross {
+    width: 100%;
+    position: relative;
+    height: 0.2rem;
+    background-color: #000;
+    &::after {
+      position: absolute;
+      content: '';
+      height: 0.2rem;
+      width: 100%;
+      background-color: black;
+      transform: rotate(var(--value));
+      transition: 1s ease all;
+    }
+  }
+}
+
+.cross__wrapper.activated {
+  --value: 180deg;
 }
