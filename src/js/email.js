@@ -1,5 +1,4 @@
-// import { formBtn } from './domElements';
-import { btnFading } from './animations/gsap';
+import { btnSuccess } from './animations/gsap';
 
 export const sendMail = () => {
   const tempParams = {
@@ -11,7 +10,7 @@ export const sendMail = () => {
   emailjs.send('pro_gmail', 'contact_form', tempParams).then((res) => {
     console.log('email send', res);
     if (res.status === 200) {
-      btnFading();
+      btnSuccess();
     }
   });
 };
