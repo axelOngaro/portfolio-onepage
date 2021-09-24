@@ -186,7 +186,7 @@ html {
   overflow: hidden;
   transition: all ease 1s;
   max-height: 0;
-  padding-top: 1em;
+  margin-top: 2em;
   font-size: 2rem;
   font-family: "Almarena", sans-serif;
 }
