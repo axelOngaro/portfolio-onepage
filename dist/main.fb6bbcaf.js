@@ -3277,7 +3277,7 @@ exports.default = _default2;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.softCross = exports.otherCross = exports.languagesCross = exports.backendCross = exports.frontendCross = exports.formBtn = exports.form = exports.contact = exports.about = exports.work = exports.skills = exports.top = exports.contactLink = exports.aboutLink = exports.workLink = exports.skillsLink = exports.homeLink = exports.languagesLearnmore = exports.softLearnmore = exports.otherLearnmore = exports.frontendLearnmore = exports.backendLearnmore = exports.softHidden = exports.otherHidden = exports.languagesHidden = exports.backendHidden = exports.frontendHidden = exports.soft = exports.other = exports.languages = exports.backend = exports.frontend = exports.hero = void 0;
+exports.title3 = exports.title2 = exports.title1 = exports.softCross = exports.otherCross = exports.languagesCross = exports.backendCross = exports.frontendCross = exports.formBtn = exports.form = exports.contact = exports.about = exports.work = exports.skills = exports.top = exports.contactLink = exports.aboutLink = exports.workLink = exports.skillsLink = exports.homeLink = exports.languagesLearnmore = exports.softLearnmore = exports.otherLearnmore = exports.frontendLearnmore = exports.backendLearnmore = exports.softHidden = exports.otherHidden = exports.languagesHidden = exports.backendHidden = exports.frontendHidden = exports.soft = exports.other = exports.languages = exports.backend = exports.frontend = exports.hero = void 0;
 //Skills section targets and hidden divs
 //targets
 var hero = document.querySelector('.hero');
@@ -3351,8 +3351,15 @@ var languagesCross = document.getElementById('languages__learnmore__cross');
 exports.languagesCross = languagesCross;
 var otherCross = document.getElementById('other__learnmore__cross');
 exports.otherCross = otherCross;
-var softCross = document.getElementById('soft__learnmore__cross');
+var softCross = document.getElementById('soft__learnmore__cross'); //intro
+
 exports.softCross = softCross;
+var title1 = document.getElementById('title1');
+exports.title1 = title1;
+var title2 = document.getElementById('title2');
+exports.title2 = title2;
+var title3 = document.getElementById('title3');
+exports.title3 = title3;
 },{}],"js/animations/loco.js":[function(require,module,exports) {
 "use strict";
 
@@ -9009,6 +9016,26 @@ var btnSuccess = function btnSuccess() {
 };
 
 exports.btnSuccess = btnSuccess;
+
+_gsap.gsap.from('#title1', {
+  y: 50,
+  duration: 2,
+  ease: 'sine.In'
+});
+
+_gsap.gsap.from('#title2', {
+  y: 80,
+  duration: 2,
+  ease: 'sine.In',
+  stagger: 1
+});
+
+_gsap.gsap.from('#title3', {
+  y: 100,
+  duration: 2,
+  ease: 'sine.In',
+  stagger: 3
+});
 },{"gsap":"../../../node_modules/gsap/index.js","../domElements":"js/domElements.js"}],"js/email.js":[function(require,module,exports) {
 "use strict";
 

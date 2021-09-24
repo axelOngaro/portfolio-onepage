@@ -46,3 +46,8 @@ export const backendCross = document.getElementById('backend__learnmore__cross')
 export const languagesCross = document.getElementById('languages__learnmore__cross');
 export const otherCross = document.getElementById('other__learnmore__cross');
 export const softCross = document.getElementById('soft__learnmore__cross');
+
+//intro
+export const title1 = document.getElementById('title1');
+export const title2 = document.getElementById('title2');
+export const title3 = document.getElementById('title3');

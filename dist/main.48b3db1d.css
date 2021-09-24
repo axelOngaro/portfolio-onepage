@@ -35,12 +35,18 @@ html {
   width: 99vw;
   padding: 1.5em 5em;
   position: fixed;
+  color: #494949;
   top: 0;
   left: 0;
   z-index: 100;
 }
 .header h1 {
   cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+.header h1:hover {
+  color: black;
+  transition: 0.3s all ease-in;
 }
 .header__nav {
   display: flex;
@@ -53,6 +59,11 @@ html {
 .header__nav__list li {
   margin: 0 2em;
   cursor: pointer;
+  transition: 0.3s all ease-in;
+}
+.header__nav__list li:hover {
+  color: black;
+  transition: 0.3s all ease-in;
 }
 
 .footer {
