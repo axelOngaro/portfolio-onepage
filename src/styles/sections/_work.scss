@@ -1,0 +1,25 @@
+.work {
+  img {
+    width: 60%;
+  }
+  padding: 5vh 10em;
+
+  h2 {
+    font-family: 'Almarena', sans-serif;
+    font-size: 7.2rem;
+    margin: 1em 0;
+    margin-left: 5vw;
+  }
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20%;
+    h1 {
+      padding: 3em 0;
+      font-size: 4rem;
+      font-family: 'Almarena', sans-serif;
+    }
+  }
+}

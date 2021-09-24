@@ -31,7 +31,7 @@ export const contactLink = document.querySelector('#contact__link');
 //Targets
 export const top = document.querySelector('.top');
 export const skills = document.querySelector('.skills');
-export const work = document.querySelector('.selected__work');
+export const work = document.querySelector('.work');
 export const about = document.querySelector('.about');
 export const contact = document.querySelector('.contact');
 
