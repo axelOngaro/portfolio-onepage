@@ -197,7 +197,7 @@ html {
 }
 
 .visible {
-  max-height: 20rem;
+  max-height: 40rem;
   transition: all ease 1s;
 }
 
