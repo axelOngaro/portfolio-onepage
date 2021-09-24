@@ -44,7 +44,7 @@
     overflow: hidden;
     transition: all ease 1s;
     max-height: 0;
-    margin-top: 2em;
+    // margin-top: 2em;
     font-size: 2rem;
     font-family: 'Almarena', sans-serif;
     li {
@@ -57,7 +57,7 @@
 }
 
 .visible {
-  max-height: 22rem;
+  max-height: 20rem;
   transition: all ease 1s;
 }
 
